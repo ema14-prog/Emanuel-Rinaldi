@@ -62,6 +62,37 @@ Incluye vistas, funciones y procedimientos que permiten generar reportes automá
 
 ### 📌 Función `calcular_total_venta(idVenta)`
 Calcula el total de una venta sumando cantidad × precio_unitario en `detalle_venta`.
+**Ejemplo de uso:**
+```sql
+SELECT calcular_total_venta(1);
+
+📌 Procedimiento hacer_venta_simple
+Registra una nueva venta y actualiza automáticamente el stock.
+
+Parámetros:
+
+p_id_empleado INT
+
+p_id_producto INT
+
+p_cantidad INT
+
+p_precio_unitario DECIMAL
+
+Ejemplo:
+
+CALL hacer_venta_simple(1, 7, 8, 150.00);
+
+📌 Vista v_stock_actual
+Muestra el stock real de productos calculado como:
+
+total de unidades compradas - unidades vendidas
+
+Consulta:
+SELECT * FROM v_stock_actual;
+
+📌 Trigger trg_alerta_stock_bajo
+Se dispara automáticamente luego de actualizar productos con bajo stock (menor a 10 unidades), y agrega un mensaje en la tabla alertas_stock.
 
 ⬇️ Cómo importar la base de datos
 Opción 1: desde MySQL Workbench
