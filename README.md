@@ -31,15 +31,7 @@ Desarrollar una base de datos funcional que permita:
 
 El kiosco vende golosinas, bebidas y snacks. Realiza compras a proveedores, las almacena, vende productos al público y trabaja con un equipo de empleados que cumplen distintos roles (cajeros, repositores, dueño).
 
----
 
-## 🛠️ Tecnologías utilizadas
-
-- **MySQL 9.0.1** Community Server  
-- **MySQL Workbench**  
-- **GitHub** (repositorio del proyecto)  
-- **Google Docs / PDF** para la documentación teórica  
-- (Opcional) **dbdiagram.io** para el diagrama E-R
 
 ---
 
@@ -92,7 +84,8 @@ Consulta:
 SELECT * FROM v_stock_actual;
 
 📌 Trigger trg_alerta_stock_bajo
-Se dispara automáticamente luego de actualizar productos con bajo stock (menor a 10 unidades), y agrega un mensaje en la tabla alertas_stock.
+Se dispara automáticamente luego de actualizar productos con bajo stock (menor a 10 unidades)
+ y agrega un mensaje en la tabla alertas_stock.
 
 ⬇️ Cómo importar la base de datos
 Opción 1: desde MySQL Workbench
