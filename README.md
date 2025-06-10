@@ -11,9 +11,7 @@ Este proyecto consiste en el diseño e implementación de una base de datos rela
 - [🗂️ Estructura de la base de datos](#-estructura-de-la-base-de-datos)
 - [📊 Informes y consultas](#-informes-y-consultas)
 - [🔧 Uso de funciones, procedimientos y vistas](#-uso-de-funciones-procedimientos-y-vistas)
-- [⬇️ Cómo importar la base de datos](#️-cómo-importar-la-base-de-datos)
-- [⬆️ Cómo exportar la base de datos](#️-cómo-exportar-la-base-de-datos)
-- [👤 Autor](#-autor)
+
 
 ---
 
