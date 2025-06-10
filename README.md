@@ -5,7 +5,7 @@ Este proyecto consiste en el diseño e implementación de una base de datos rela
 ## 📁 Contenido
 
 - [🎯 Objetivo](#-objetivo)
-- [💡_Problemas que soluciona esta base de datos](#-Problemas que soluciona esta base de datos)
+- [💡 Problemas que soluciona esta base de datos](#-problemas-que-soluciona-esta-base-de-datos)
 - [📦 Modelo de negocio](#-modelo-de-negocio)
 - [🛠️ Tecnologías utilizadas](#-tecnologías-utilizadas)
 - [🗂️ Estructura de la base de datos](#-estructura-de-la-base-de-datos)
