@@ -29,7 +29,7 @@ Desarrollar una base de datos funcional que permita:
 ---
 
 ## 💡 Problemas que soluciona esta base de datos
-Esta base de datos está diseñada para solucionar varios problemas comunes en la gestión diaria de un kiosco, tales como:
+Esta base de datos está diseñada para solucionar varios problemas comunes en la gestión diaria del kiosco, tales como:
 
 Control efectivo del stock: Evita errores manuales y pérdidas de inventario mediante el control automático del stock en tiempo real, actualizando las cantidades con cada compra y venta.
 
