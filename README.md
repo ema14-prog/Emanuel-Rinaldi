@@ -5,6 +5,7 @@ Este proyecto consiste en el diseño e implementación de una base de datos rela
 ## 📁 Contenido
 
 - [🎯 Objetivo](#-objetivo)
+- [💡_Problemas que soluciona esta base de datos](#-Problemas que soluciona esta base de datos)
 - [📦 Modelo de negocio](#-modelo-de-negocio)
 - [🛠️ Tecnologías utilizadas](#-tecnologías-utilizadas)
 - [🗂️ Estructura de la base de datos](#-estructura-de-la-base-de-datos)
@@ -24,6 +25,29 @@ Desarrollar una base de datos funcional que permita:
 - Generar alertas por bajo stock
 - Llevar un historial de precios
 - Analizar productos más vendidos, stock crítico, etc.
+
+---
+
+## 💡 Problemas que soluciona esta base de datos
+Esta base de datos está diseñada para solucionar varios problemas comunes en la gestión diaria de un kiosco, tales como:
+
+Control efectivo del stock: Evita errores manuales y pérdidas de inventario mediante el control automático del stock en tiempo real, actualizando las cantidades con cada compra y venta.
+
+Alertas automáticas: Genera alertas cuando el stock de algún producto es bajo, permitiendo tomar acciones antes de quedarse sin mercadería.
+
+Historial de precios: Registra automáticamente los cambios de precio de los productos para evitar pérdidas por actualización incorrecta y facilitar análisis históricos y rendiciones.
+
+Prevención de stock negativo: Gracias a triggers, se evita vender más unidades de las que hay disponibles, asegurando la integridad del inventario.
+
+Gestión de ventas múltiples: Facilita la venta de uno o varios productos a la vez con procedimientos almacenados que manejan toda la lógica necesaria.
+
+Organización del inventario por ubicación: Permite saber en qué depósito o estantería se encuentra cada producto para una gestión más ordenada y rápida.
+
+Control de vencimientos: Incluye seguimiento de productos próximos a vencer, ayudando a reducir pérdidas por productos caducados.
+
+Roles de empleados y seguridad: Diferencia las funciones de cada empleado (cajero, repositor, dueño) para un mejor control interno.
+
+En resumen, esta base de datos ofrece una solución integral para optimizar la administración del kiosco, reducir errores humanos, mejorar la toma de decisiones y mantener un negocio más eficiente y rentable.
 
 ---
 
